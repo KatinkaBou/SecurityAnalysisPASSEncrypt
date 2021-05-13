@@ -3,9 +3,9 @@
 This GitHub repository contains the Sage code in order to perform attacks against PASS Encrypt to estimate its concrete security. 
 
 As explained in Section 7.3 (Security Analysis) of Chapter 7 (PASS Encrypt) of my thesis, the encryption scheme can be attacked in three different ways:
-	- Key Recovery Attack
-	- Randomness Recovery Attack
-	- Plaintext Recovery Using Hints Attack
+- Key Recovery Attack
+- Randomness Recovery Attack
+- Plaintext Recovery Using Hints Attack
 
 In Table 7.1 of my thesis we provide security estimations for concrete parameters.
 The link of the thesis will follow, once it has been published.
