@@ -18,13 +18,13 @@ The folder “attacks” contains one sage file which performs the attacks on th
 We refer to the descriptions within those files for further details on how to execute them.
 
 #-- Example in Sage --#
-# ..: load("pass_encrypt.sage")
-# ..: d,t,q=256,128,7681
-# ..: attack(d,t,q,"light")
+ ..: load("pass_encrypt.sage")
+ ..: d,t,q=256,128,7681
+ ..: attack(d,t,q,"light")
 
 #-- Example in Terminal --#
-# ..: chmod +x pass_encrypt.sage
-# ..: ./pass_encrypt.sage 256 128 7681 "light"
+ ..: chmod +x pass_encrypt.sage
+ ..: ./pass_encrypt.sage 256 128 7681 "light"
 
 We also included a pdf file (Experiments_Results.pdf) that summarizes all results mentioned in the thesis (Table 7.1 and Table 7.2).
 
