@@ -16,15 +16,12 @@ The folder “framework” is directly copied from the Leaky LWE Estimator repos
 
 The folder “attacks” contains one sage file which performs the attacks on the (slightly modified version of) PASS Encrypt, as presented in the thesis. PASS Encrypt was first described by Hoffstein and Silverman [HS15].
 We refer to the descriptions within those files for further details on how to execute them.
+Here a simple example to execture with Sage within the folder “attacks”:
 
 #-- Example in Sage --#
 - ..: load("pass_encrypt.sage")
 - ..: d,t,q=256,128,7681
 - ..: attack(d,t,q,"light")
-
-#-- Example in Terminal --#
-- ..: chmod +x pass_encrypt.sage
-- ..: ./pass_encrypt.sage 256 128 7681 "light"
 
 We also included a pdf file (Experiments_Results.pdf) that summarizes all results mentioned in the thesis (Table 7.1 and Table 7.2).
 
