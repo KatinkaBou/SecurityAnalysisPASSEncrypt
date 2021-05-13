@@ -8,7 +8,7 @@ As explained in Section 7.3 (Security Analysis) of Chapter 7 (PASS Encrypt) of m
 	- Plaintext Recovery Using Hints Attack
 
 In Table 7.1 of my thesis we provide security estimations for concrete parameters.
-The link of the thesis will folllow, once it has been published.
+The link of the thesis will follow, once it has been published.
 
 The following files of this repository provide the necessary material to verify those security claims.
 
