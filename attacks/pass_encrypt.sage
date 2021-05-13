@@ -6,26 +6,12 @@
 # ..: d,t,q=256,128,7681
 # ..: attack(d,t,q,"light")
 
-#-- Example in Terminal --#
-# ..: chmod +x pass_encrypt.sage
-# ..: ./pass_encrypt.sage 256 128 7681 "light"
-
 #-- Import --#
 from sage.all import *
 import sys
 load("../framework/instance_gen.sage")
 import random
 #------------#
-
-# check input arguments
-if len(sys.argv) != 5:
-    print("Usage: {:s} <arg1> <arg2> <arg3> <arg4>, where : \n\t <arg1> defines the degree <d> \n\t <arg2> defines the number of NTT coefficients <t> \n\t <arg3> defines the modulus <q> \n\t <arg4> defines the modus of the attack \n".format(sys.argv[0]));
-    sys.exit(2);
-
-d = int(sys.argv[1]);
-t = int(sys.argv[2]);
-q = int(sys.argv[3]);
-mode = sys.argv[4];
 
 # get d-th roots of unity modulo q 
 def GetUnits_pow2(d,q):
@@ -258,8 +244,5 @@ def attack(d,t,q,mode):
 	attack3(d,t,q,mode)
 	return print("ATTACK completed.")
 
-attack(d,t,q,mode)
-
-exit;
 	
 	
