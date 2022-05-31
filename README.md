@@ -28,4 +28,5 @@ Please make sure that your Sage version is up to date.
 We tested it on version 8.8 (Release Date: 2019-06-26) using Python 3.7.7.
 
 [BSS22] Katharina Boudgoust, Amin Sakzad, Ron Steinfeld. Vandermonde meets Regev: Public Key Encryption Schemes Based on Partial Vandermonde Problems (https://eprint.iacr.org/2022/679)
+
 [HS15] Jeffrey Hoffstein, Joseph H. Silverman. PASS-Encrypt: a public key cryptosystem based on partial evaluation of polynomials. Des. Codes Cryptogr. 77(2-3): 541-552 (2015)
